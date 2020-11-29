@@ -33,7 +33,6 @@ func main() {
 	p, err := BizPeople(name)
 	if err != nil {
 		log.Println(err)
-
 	}
 
 	log.Printf("data info: %+v\n", p)
